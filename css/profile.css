@@ -1,0 +1,121 @@
+
+.bgimage {
+	background-image: url(../images/profile/bridge2.png);
+	background-position: center;
+	/* background-size: cover; */
+	width: 100%;
+	height: 600px;
+	border: 2px solid gray;
+	border-top: 0px;
+	text-align: center;
+}
+/*==============================================
+             HEADER START
+==============================================*/
+#header {
+	width: cover;
+	background: rgba(8,68,102, .2);
+	padding: 5px 5px;
+}
+#logo {
+	height: 50px;
+	width: 70px;
+	position: relative;
+	margin-right: 10px;
+}
+#menu {
+	height: 45px;
+	width: 45px;
+	position: relative;
+	margin-right: 5px;
+	border: none;
+}
+
+#menu-hover{
+		/* top: -43px; */
+		height: 45px;
+		width: 46px;
+		display: block;
+		border: none;
+}
+
+#menu-container{
+	position: relative;
+	height: 120px;
+	width: 80px;
+	line-height: 2;
+	border: none;
+}
+#menu-hover:hover ul{
+	display: block;
+	opacity: 1;
+	visibility: visible;
+	/* border: white; */
+	color: lightblue;
+}
+.submenu {
+	top: 8px;
+	position: relative;
+	list-style: none;
+	text-align: left;
+	background: rgba(8,68,102, .2);
+	visibility: hidden;
+}
+
+.submenu-li{
+	right:40px;
+	position: relative;
+	color: #fff;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-right: 40px;
+	padding-left: 5px;
+}
+/*==============================================
+             HEADER END
+==============================================*/
+
+
+.bgimage .container p{
+	color: #fff;
+	text-shadow: -1px 2px 3px (245,252,241, 0.5);
+}
+
+#name-container{
+	color: white;
+	font-family: krona one;
+}
+#name p {
+		font-family: krona one;
+}
+
+#selfie {
+	/* position: center; */
+	width: 200px;
+	height: auto;
+	/* padding-top: 125px; */
+	border: 3px solid white;
+	border-radius: 50%;
+	/* top: 125px; */
+	transition: transform .2s;
+	transform-origin: 50% 50%;
+	cursor: pointer;
+}
+#selfie:hover {
+	transform: scale(1.152);
+}
+
+.icons {
+	height: 100px;
+	width: 100px;
+	margin: 0 auto;
+	display: block;
+}
+.row {
+	text-align: center;
+}
+
+
+
+
+

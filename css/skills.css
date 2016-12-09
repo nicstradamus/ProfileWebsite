@@ -1,0 +1,43 @@
+
+
+#about{
+	display: block;
+	position: center;
+	font-family: krona one;
+}
+#about-container {
+	width: 55%;
+	min-width: 300px;
+	color: gray;
+	margin: auto;
+	background: rgba(255,255,255, .8);
+	border: 3px solid white;
+	border-radius: 5%;
+	/* font-family: krona one; */
+}
+#about-container p{
+	margin: 30px;
+}
+
+#section-1 dt, #section-1 dd {
+	text-align: left;
+	padding-left: 20px;
+}
+#section-1 dt {;
+	text-decoration: underline;
+}
+#skills-content {
+	overflow: scroll;
+	overflow-x: hidden;
+	max-height: 300px;
+}
+#skills-content ul{
+	font-size: 18px;
+	text-align: left;
+	font-family: krona one;
+}
+#skills-content ul li{
+	font-size: 14px;
+	text-align: left;
+	font-family: krona one;
+}

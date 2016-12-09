@@ -1,0 +1,26 @@
+#about{
+	display: block;
+	position: center;
+	font-family: krona one;
+}
+#about-container {
+	width: 55%;
+	min-width: 300px;
+	color: gray;
+	margin: auto;
+	background: rgba(255,255,255, .8);
+	border: 3px solid white;
+	border-radius: 5%;
+	/* font-family: krona one; */
+}
+#about-container p{
+	margin: 30px;
+}
+
+#resume-content {
+	text-align: left;
+	margin: 15px;
+	overflow: scroll;
+	overflow-x: hidden;
+	max-height: 300px;
+}
