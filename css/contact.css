@@ -22,7 +22,7 @@
 #about-container {
 	max-height: 300;
 	width: 35%;
-	min-width:200px;
+	min-width:300px;
 	color: gray;
 	margin: auto;
 	background: rgba(255,255,255, .8);
