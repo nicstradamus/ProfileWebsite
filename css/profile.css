@@ -123,6 +123,10 @@
 	transform: scale(1.152);
 }
 
+
+/*==============================================
+             LOWER ICONS START
+==============================================*/
 .icons {
 	height: 100px;
 	width: 100px;
@@ -133,7 +137,13 @@
 	text-align: center;
 }
 
+.icons-hover{
+	transition: transform .2s;
+	transform-origin: 50% 50%;
+}
 
-
+.icons-hover:hover {
+	transform: scale(1.152);
+}
 
 
