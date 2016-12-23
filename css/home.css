@@ -23,17 +23,15 @@
 	height: 45px;
 	width: 65px;
 	position: relative;
-	/* margin-right: 100px; */
-	border: none;
-	padding: 2px;
+	margin-right: 100px;
+	transform: 
 }
-
 #logo-hover {
 	position: absolute;
 	height: 52px;
-	width: 59px;
+	width: 65px;
 	display: block;
-	/* border: 1px solid black; */
+	border: none;
 	transition: transform .2s;
 	transform-origin: 50% 50%;
 	cursor: pointer;
@@ -47,7 +45,6 @@
 	position: relative;
 	margin-right: 5px;
 	border: none;
-	padding: 2px;
 }
 
 #menu-hover{
@@ -56,17 +53,14 @@
 		width: 46px;
 		display: block;
 		border: none;
-		transition: transform .2s;
-		transform-origin: 50% 50%;
 }
 
 #menu-container{
 	position: relative;
-	height: 0px;
+	height: 120px;
 	width: 80px;
 	line-height: 2;
 	border: none;
-	padding-top: 2.5px;
 }
 
 #menu-hover:hover ul{
@@ -76,7 +70,6 @@
 	/* border: white; */
 	color: lightblue;
 	border: conflowerblue;
-	transform: scale(1.152);
 }
 .submenu {
 	top: 8px;
