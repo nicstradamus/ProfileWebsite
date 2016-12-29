@@ -6,8 +6,12 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE-edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-	
+		
 		<link rel="stylesheet" href="./css/bootstrap.min.css">
+		<link rel="stylesheet" href="./css/techTest.css">
+		<script type="text/javascript" src="./js/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+
 		<title>Carousel Template</title>
 	</head>
 	
@@ -17,21 +21,36 @@
 			<div class="row">
 				<section class="col-sm-12">
 		
-					<div class="carousel" data-ride="carousel">
+					<div class="carousel slide" id="featured" data-ride="carousel">
+					
+					<ol class="carousel-indicators">
+						<li data-target="#featured" data-slide-to="0"></li>
+						<li data-target="#featured" data-slide-to="1"></li>
+						<li data-target="#featured" data-slide-to="2"></li>
+						<li data-target="#featured" data-slide-to="3"></li>
+					</ol>
+					
 						<div class="carousel-inner">
 							<div class="item active">
-								<img class="icons" src="./images/profile/about.png" alt="">
+								<img class="icons" src="./images/profile/river2.png" alt="">
 							</div>
 							<div class="item">
-								<img src="./images/profile/skills.png" alt="">
+								<img class="icons" src="./images/profile/canopy.png" alt="">
 							</div>
 							<div class="item">
-								<img src="./images/profile/resume.png" alt="">	
+								<img class="icons" src="./images/profile/beach.png" alt="">	
 							</div>
 							<div class="item">
-								<img src="./images/profile/contact.png" alt="">
+								<img class="icons" src="./images/profile/cats.png" alt="">
 							</div>
 						</div><!--carousel inner-->
+						
+						<a class="left-carousel-control" href="#featured" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span>
+						</a>
+						
+						<a class="right-carousel-control" href="#featured" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span>
+						</a>
+						
 					</div><!--carousel-->
 				</section>
 			</div><!--row-->
