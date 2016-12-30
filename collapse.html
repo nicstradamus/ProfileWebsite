@@ -1,0 +1,72 @@
+<!-- XHTML 1.0 Strict -->
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE-edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" href="./css/bootstrap.min.css">
+		<script type="text/javascript" src="./js/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+
+		<title>Tabs Template</title>
+	</head>
+	
+	<body>
+		
+		<div class="content container">
+			<div class="row">
+				<section class="col-sm-12">
+	
+					<h1>Main Header</h1>
+					
+					<!--FIRST PANEL-->
+					<div class="panel-group" id="accordian" role="tablist" aria-multiselectable="true">
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="headingOne">
+								<h4 class="panel-title">
+									<a href="#header1" data-parent="#accordian" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="header1">Header 1</a>
+								</h4>
+							</div>
+							<div class="panel-collapse collapse in" id="header1" role="tab-panel" arialabelledby="headingOne">
+								<p>Heading 1 text goes here. Heading 1 text goes here. Heading 1 text goes here. Heading 1 text goes here. Heading 1 text goes here. Heading 1 text goes here. </p>
+							</div>
+						</div>
+					</div>
+					
+					<!--SECOND PANEL-->
+					<div class="panel-group" id="accordian" role="tablist" aria-multiselectable="true">
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="headingTwo">
+								<h4 class="panel-title">
+									<a href="#header2" data-parent="#accordian" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="header2">Header 2</a>
+								</h4>
+							</div>
+							<div class="panel-collapse collapse in" id="header2" role="tab-panel" arialabelledby="headingTwo">
+								<p>Heading 2 text goes here. Heading 2 text goes here. Heading 2 text goes here. Heading 2 text goes here. </p>
+							</div>
+						</div>
+					</div>
+				
+					<!--THIRD PANEL-->
+					<div class="panel-group" id="accordian" role="tablist" aria-multiselectable="true">
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="headingThree">
+								<h4 class="panel-title">
+									<a href="#header3" data-parent="#accordian" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="header3">Header 3</a>
+								</h4>
+							</div>
+							<div class="panel-collapse collapse in" id="header3" role="tab-panel" arialabelledby="headingThree">
+								<p>Heading 3 text goes here.Heading 3 text goes here. Heading 3 text goes here. Heading 3 text goes here. Heading 3 text goes here. Heading 3 text goes here. </p>
+							</div>
+						</div>
+					</div>
+
+				</section>
+			</div><!--ROW--->
+		</div><!--CONTENT-CONTAINER-->
+	</body>
+	
+</html>	
